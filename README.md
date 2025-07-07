@@ -40,6 +40,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `bun run lint`: Lints the code using ESLint.
 - `bun run format`: Formats the code using Prettier.
 - `bun run shadcn`: Adds new shadcn/ui components.
+- `bun run deps`: Updates dependencies interactively using taze.
 
 ## Contributing
 
