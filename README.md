@@ -1,4 +1,4 @@
-# Next.js 15 Starter Template
+# ⚡ Next.js 15 Starter Template
 
 A minimal and clean starter template with Next.js 15, Tailwind CSS, shadcn/ui, Prettier and the React Compiler.
 
@@ -6,13 +6,13 @@ This template is for those who, like me, are tired of setting up a new project f
 
 ## Features
 
-- **Next.js 15:** The latest version of the popular React framework.
-- **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
-- **shadcn/ui:** A collection of beautifully designed, accessible, and customizable components.
-- **Prettier:** An opinionated code formatter to ensure consistent code style. It's configured with `prettier-plugin-organize-imports` to automatically organize imports and `prettier-plugin-tailwindcss` to sort Tailwind CSS classes.
-- **React Compiler:** An experimental compiler that optimizes your React code.
-- **ESLint for React Compiler:** ESLint is configured with `eslint-plugin-react-compiler` to enforce the rules of hooks and other React best practices with the compiler in mind.
-- **Lucide Icons:** A beautiful and consistent icon set.
+- 🚀 **Next.js 15:** The latest version of the popular React framework.
+- 🎨 **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
+- ✨ **shadcn/ui:** A collection of beautifully designed, accessible, and customizable components.
+- 🪄 **Prettier:** An opinionated code formatter to ensure consistent code style. It's configured with `prettier-plugin-organize-imports` to automatically organize imports and `prettier-plugin-tailwindcss` to sort Tailwind CSS classes.
+- 🤖 **React Compiler:** An experimental compiler that optimizes your React code.
+- ✅ **ESLint for React Compiler:** ESLint is configured with `eslint-plugin-react-compiler` to enforce the rules of hooks and other React best practices with the compiler in mind.
+- 🖼️ **Lucide Icons:** A beautiful and consistent icon set.
 
 ## Getting Started
 
