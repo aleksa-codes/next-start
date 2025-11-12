@@ -1,4 +1,4 @@
-import { CloneButton } from '@/components/clone-button';
+import { CopyButton } from '@/components/copy-button';
 import { ModeToggle } from '@/components/mode-toggle';
 import { Button } from '@/components/ui/button';
 import { Github } from 'lucide-react';
@@ -50,7 +50,17 @@ export default function Home() {
           </div>
         </div>
 
-        <CloneButton />
+        <div className='group bg-card relative overflow-hidden rounded-lg border px-6 py-4 shadow-sm transition-all hover:shadow-md'>
+          <div className='flex items-center justify-between gap-4'>
+            <div className='min-w-0 flex-1'>
+              <p className='text-muted-foreground mb-1.5 text-xs font-medium'>Get Started</p>
+              <code className='block truncate font-mono text-sm'>
+                git clone git@github.com:aleksa-codes/next-start.git
+              </code>
+            </div>
+            <CopyButton value='git clone git@github.com:aleksa-codes/next-start.git' />
+          </div>
+        </div>
       </div>
 
       <footer className='text-muted-foreground text-center text-sm'>
