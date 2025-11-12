@@ -1,13 +1,14 @@
-# ⚡ Next.js 15 Starter Template
+# ⚡ Next.js 16 Starter Template
 
-A minimal and clean starter template with Next.js 15, Tailwind CSS, shadcn/ui, Prettier and the React Compiler.
+A minimal and clean starter template with Next.js 16, Tailwind CSS, shadcn/ui, Prettier and the React Compiler.
 
 This template is for those who, like me, are tired of setting up a new project from scratch every time they have a new idea. It includes all the essentials I always use to get you up and running in no time.
 
 ## Features
 
-- 🚀 **Next.js 15:** The latest version of the popular React framework.
-- 🎨 **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
+- 🚀 **Next.js 16:** The latest version of the popular React framework.
+- 🎨 **Tailwind CSS:** A utility-first CSS framework for rapid UI development with typography plugin.
+- 🌙 **Dark Mode:** Built-in dark mode support with next-themes and system preference detection.
 - ✨ **shadcn/ui:** A collection of beautifully designed, accessible, and customizable components.
 - 🪄 **Prettier:** An opinionated code formatter to ensure consistent code style. It's configured with `prettier-plugin-organize-imports` to automatically organize imports and `prettier-plugin-tailwindcss` to sort Tailwind CSS classes.
 - 🤖 **React Compiler:** An experimental compiler that optimizes your React code.

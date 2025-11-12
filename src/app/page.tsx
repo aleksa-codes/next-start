@@ -1,29 +1,64 @@
+import { CloneButton } from '@/components/clone-button';
+import { ModeToggle } from '@/components/mode-toggle';
 import { Button } from '@/components/ui/button';
 import { Github } from 'lucide-react';
 
 export default function Home() {
+  const features = [
+    'Next.js 16',
+    'React Compiler',
+    'TypeScript',
+    'Tailwind CSS v4',
+    'shadcn/ui',
+    'Dark Mode',
+    'Typography Plugin',
+    'Lucide Icons',
+    'Prettier & ESLint',
+  ];
+
   return (
-    <main className='flex h-screen flex-col items-center justify-center'>
-      <div className='container flex flex-col items-center justify-center gap-6'>
-        <h1 className='text-center text-4xl font-bold tracking-tight md:text-5xl'>next-start</h1>
-        <p className='text-muted-foreground max-w-xl text-center text-lg'>
-          A minimal and clean starter template with Next.js 15, Tailwind CSS, shadcn/ui, Prettier and React Compiler.
-        </p>
-        <div className='flex items-center gap-4'>
-          <Button asChild>
+    <main className='flex min-h-screen flex-col items-center justify-between px-6 py-12'>
+      <div className='w-full' />
+
+      <div className='w-full max-w-2xl'>
+        <div className='mb-12 text-center'>
+          <h1 className='mb-4 text-5xl font-bold tracking-tight md:text-6xl'>next-start</h1>
+          <p className='text-muted-foreground text-lg'>A minimal Next.js starter template.</p>
+        </div>
+
+        <div className='mb-12 flex justify-center gap-3'>
+          <Button asChild variant='default' className='gap-2'>
             <a href='https://github.com/aleksa-codes/next-start' target='_blank' rel='noopener noreferrer'>
-              <Github className='size-4' />
-              <span>GitHub</span>
+              <Github className='h-4 w-4' />
+              GitHub
             </a>
           </Button>
+          <ModeToggle />
         </div>
+
+        <div className='mb-12'>
+          <p className='text-muted-foreground mb-6 text-center text-sm'>Features</p>
+          <div className='grid grid-cols-2 gap-3 md:grid-cols-3'>
+            {features.map((feature) => (
+              <div
+                key={feature}
+                className='border-border rounded-full border px-4 py-2.5 text-center text-sm font-medium'
+              >
+                {feature}
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <CloneButton />
       </div>
-      <footer className='absolute bottom-4'>
+
+      <footer className='text-muted-foreground text-center text-sm'>
         <a
           href='https://github.com/aleksa-codes'
           target='_blank'
           rel='noopener noreferrer'
-          className='text-muted-foreground text-sm underline'
+          className='hover:text-foreground transition-colors'
         >
           Made by aleksa.codes
         </a>
