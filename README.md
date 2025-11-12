@@ -1,52 +1,50 @@
-# ⚡ Next.js 16 Starter Template
+# next-start: Next.js Starter Template
 
-A minimal and clean starter template with Next.js 16, Tailwind CSS, shadcn/ui, Prettier and the React Compiler.
+A minimal Next.js 16 starter with Tailwind CSS v4, shadcn/ui, React Compiler, typography, dark mode, Prettier, and ESLint.
 
-This template is for those who, like me, are tired of setting up a new project from scratch every time they have a new idea. It includes all the essentials I always use to get you up and running in no time.
+Built for developers who want to skip the setup and start building immediately. Includes modern tooling and best practices out of the box.
+
+🔗 **[Live Demo](https://nextstartdemo.vercel.app/)**
 
 ## Features
 
-- 🚀 **Next.js 16:** The latest version of the popular React framework.
-- 🎨 **Tailwind CSS:** A utility-first CSS framework for rapid UI development with typography plugin.
-- 🌙 **Dark Mode:** Built-in dark mode support with next-themes and system preference detection.
-- ✨ **shadcn/ui:** A collection of beautifully designed, accessible, and customizable components.
-- 🪄 **Prettier:** An opinionated code formatter to ensure consistent code style. It's configured with `prettier-plugin-organize-imports` to automatically organize imports and `prettier-plugin-tailwindcss` to sort Tailwind CSS classes.
-- 🤖 **React Compiler:** An experimental compiler that optimizes your React code.
-- ✅ **ESLint for React Compiler:** ESLint is configured with `eslint-plugin-react-compiler` to enforce the rules of hooks and other React best practices with the compiler in mind.
-- 🖼️ **Lucide Icons:** A beautiful and consistent icon set.
+- 🚀 **Next.js 16** with App Router and React Server Components
+- ⚛️ **React Compiler** for automatic optimization
+- 🎨 **Tailwind CSS v4** with OKLCH color system and typography plugin
+- ✨ **shadcn/ui** components (New York style)
+- 🌙 **Dark mode** with next-themes and system preference detection
+- 🪄 **Prettier** with auto-import organization and Tailwind class sorting
+- ✅ **ESLint** with React Compiler plugin for best practices
+- 🖼️ **Lucide Icons** for consistent iconography
+- 📦 **Bun** as package manager
 
-## Getting Started
-
-First, clone the repository and install the dependencies:
+## Quick Start
 
 ```bash
 git clone https://github.com/aleksa-codes/next-start
 cd next-start
 bun install
-```
-
-Then, run the development server:
-
-```bash
 bun run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view your app.
 
-## Available Scripts
+## Scripts
 
-- `bun run dev`: Starts the development server.
-- `bun run build`: Builds the application for production.
-- `bun run start`: Starts the production server.
-- `bun run lint`: Lints the code using ESLint.
-- `bun run format`: Formats the code using Prettier.
-- `bun run shadcn`: Adds new shadcn/ui components.
-- `bun run deps`: Updates dependencies interactively using taze.
+| Command          | Description                       |
+| ---------------- | --------------------------------- |
+| `bun run dev`    | Start development server          |
+| `bun run build`  | Build for production              |
+| `bun run start`  | Run production server             |
+| `bun run lint`   | Lint with ESLint                  |
+| `bun run format` | Format with Prettier              |
+| `bun run shadcn` | Add shadcn/ui components          |
+| `bun run deps`   | Update dependencies interactively |
 
 ## Contributing
 
-Contributions are welcome! Please feel free to open an issue or submit a pull request.
+Contributions are welcome! Open an issue or submit a pull request.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+MIT License - see [LICENSE](LICENSE) for details.
