@@ -13,16 +13,12 @@ function CopyButton({
 }: React.ComponentProps<typeof Button> & { value: string }) {
   const [copied, setCopied] = React.useState(false)
 
-  const handleCopy = React.useCallback(async () => {
+  const handleCopy = async () => {
     if (!value) return
-
     await navigator.clipboard.writeText(value)
     setCopied(true)
-
-    setTimeout(() => {
-      setCopied(false)
-    }, 2000)
-  }, [value])
+    setTimeout(() => setCopied(false), 2000)
+  }
 
   return (
     <Button
