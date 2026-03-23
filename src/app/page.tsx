@@ -17,7 +17,7 @@ export default function Home() {
   ]
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between px-6 py-12">
+    <div className="flex min-h-screen flex-col items-center justify-between px-6 py-12">
       <div className="w-full" />
 
       <div className="w-full max-w-2xl">
@@ -75,7 +75,7 @@ export default function Home() {
         </div>
       </div>
 
-      <footer className="text-center text-sm text-muted-foreground">
+      <div className="text-center text-sm text-muted-foreground">
         <a
           href="https://github.com/aleksa-codes"
           target="_blank"
@@ -84,7 +84,7 @@ export default function Home() {
         >
           Made by aleksa.codes
         </a>
-      </footer>
-    </main>
+      </div>
+    </div>
   )
 }
