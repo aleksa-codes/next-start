@@ -1,7 +1,7 @@
 import { CopyButton } from "@/components/copy-button"
 import { ModeToggle } from "@/components/mode-toggle"
 import { Button } from "@/components/ui/button"
-import { Github } from "lucide-react"
+import { TerminalIcon } from "lucide-react"
 
 export default function Home() {
   const features = [
@@ -37,7 +37,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Github className="h-4 w-4" />
+              <TerminalIcon className="h-4 w-4" />
               GitHub
             </a>
           </Button>
