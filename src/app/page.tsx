@@ -20,7 +20,7 @@ export default function Home() {
     <div className="flex min-h-screen flex-col items-center justify-between px-6 py-12">
       <div className="w-full" />
 
-      <div className="w-full max-w-2xl">
+      <div className="container">
         <div className="mb-12 text-center">
           <h1 className="mb-4 text-5xl font-bold tracking-tight md:text-6xl">
             next-start
